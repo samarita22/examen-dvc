@@ -55,7 +55,7 @@ def grid_search_rf(X_train, y_train, cv=5, n_jobs=-1):
     
     grid_search.fit(X_train, y_train)
     
-    print(f"\n✓ GridSearch terminé!")
+    print(f"\nGridSearch terminé!")
     print(f"Meilleurs paramètres: {grid_search.best_params_}")
     print(f"Meilleur score (R²): {grid_search.best_score_:.4f}")
     
@@ -94,7 +94,7 @@ def main():
     # Sauvegarder les meilleurs paramètres
     save_best_params(grid_search, output_dir)
     
-    print("\n✓ GridSearch terminé et sauvegardé!")
+    print("\nGridSearch terminé et sauvegardé!")
 
 if __name__ == "__main__":
     main()

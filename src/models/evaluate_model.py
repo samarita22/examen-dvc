@@ -103,7 +103,7 @@ def main():
     save_predictions_and_metrics(X_test, y_test, y_pred, metrics, 
                                  output_data_dir, output_metrics_dir)
     
-    print("\n✓ Évaluation du modèle terminée!")
+    print("\nÉvaluation du modèle terminée!")
 
 if __name__ == "__main__":
     main()

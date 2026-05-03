@@ -41,7 +41,7 @@ def train_model(X_train, y_train, best_params):
     # Évaluation sur l'ensemble d'entraînement
     train_r2 = model.score(X_train, y_train)
     
-    print(f"✓ Modèle entraîné!")
+    print(f"Modèle entraîné!")
     print(f"Score R² sur l'ensemble d'entraînement: {train_r2:.4f}")
     
     return model
@@ -82,7 +82,7 @@ def main():
     # Sauvegarder le modèle
     save_model(model, models_dir)
     
-    print("\n✓ Entraînement du modèle terminé!")
+    print("\nEntraînement du modèle terminé!")
 
 if __name__ == "__main__":
     main()

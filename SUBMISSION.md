@@ -141,16 +141,14 @@ dvc repro src/models/evaluate_model.py
 
 ## Checklist de Livraison
 
-- ✅ 5 scripts de preprocessing, modélisation et évaluation
-- ✅ Dossier `.dvc` avec fichier `config` pointant vers DagsHub
-- ✅ Fichier `.pkl` du modèle entraîné dans le dossier `models`
-- ✅ Fichier `.json` des métriques d'évaluation dans le dossier `metrics`
-- ✅ Fichier `dvc.yaml` avec les étapes de la pipeline
-- ✅ Fichier `dvc.lock` avec les informations de dépendances
-- ✅ Dossier `data` bien structuré avec données brutes et traitées
-- ✅ Pipeline DVC fonctionnelle et reproductible
+- 5 scripts de preprocessing, modélisation et évaluation
+- Dossier `.dvc` avec fichier `config` pointant vers DagsHub
+- Fichier `.pkl` du modèle entraîné dans le dossier `models`
+- Fichier `.json` des métriques d'évaluation dans le dossier `metrics`
+- Fichier `dvc.yaml` avec les étapes de la pipeline
+- Fichier `dvc.lock` avec les informations de dépendances
+- Dossier `data` bien structuré avec données brutes et traitées
+- Pipeline DVC fonctionnelle et reproductible
 
----
-
-**Date de Submission:** 3 Mai 2026  
+**Date de Submission:** 3 Mai 2026
 **Statut:** Complété

@@ -88,7 +88,7 @@ def main():
     with open("data/processed/split_paths.json", "w") as f:
         json.dump(paths, f, indent=2)
     
-    print("\n✓ Split des données terminé!")
+    print("\nSplit des données terminé!")
 
 if __name__ == "__main__":
     main()

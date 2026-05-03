@@ -75,7 +75,7 @@ def main():
     # Sauvegarder
     save_scaled_data(X_train_scaled, X_test_scaled, scaler, output_dir)
     
-    print("\n✓ Normalisation des données terminée!")
+    print("\nNormalisation des données terminée!")
 
 if __name__ == "__main__":
     main()
