@@ -214,5 +214,5 @@ https://datascientest-mlops.s3.eu-west-1.amazonaws.com/mlops_dvc_fr/raw.csv
 ## Auteur
 
 **Nom:** VODOUNON Rodrigue  
-**Email:** bignonvodounon@gmail.com  
+**Email:** rodrigue.vodounon@easytowork2.com  
 **Date:** 3 Mai 2026
