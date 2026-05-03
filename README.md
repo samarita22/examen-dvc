@@ -145,9 +145,7 @@ Configuration visible dans `.dvc/config`:
 ```bash
 # Créer et activer l'environnement virtuel
 python3 -m venv env
-source env/bin/activate  # Linux/macOS
-# ou
-env\Scripts\activate  # Windows
+source env/bin/activate 
 
 # Installer les dépendances
 pip install -r requirements.txt
